@@ -61,7 +61,7 @@ public class User {
 }
 ```
 
-*Note: The ```@BuilderConstructorWithAllArgs``` annotation sinalize the compiler that the class have a constructor with all arguments.*
+*Note: The ```@AllArgsConstructor``` annotation sinalize the compiler that the class have a constructor with all arguments.*
 
 __Step 2 - Compile the project__
 
