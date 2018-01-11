@@ -1,4 +1,5 @@
-# builder-generator
+# builder-generator [![](https://jitpack.io/v/WellingtonCosta/builder-generator.svg)](https://jitpack.io/#WellingtonCosta/builder-generator)
+
 
 This project is a simple example of code generation at compile-time using Java Annotation Processing.
 
