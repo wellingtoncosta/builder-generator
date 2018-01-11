@@ -1,7 +1,7 @@
 package buidergenerator;
 
 import buidergenerator.annotation.Builder;
-import buidergenerator.annotation.BuilderConstructorWithAllArgs;
+import buidergenerator.annotation.AllArgsConstructor;
 
 @Builder
 public class Contact {
@@ -12,7 +12,7 @@ public class Contact {
 
     public final String phone;
 
-    @BuilderConstructorWithAllArgs
+    @AllArgsConstructor
     public Contact(String name, String email, String phone) {
         this.name = name;
         this.email = email;

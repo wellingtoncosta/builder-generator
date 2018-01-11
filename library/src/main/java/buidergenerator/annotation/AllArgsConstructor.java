@@ -7,4 +7,4 @@ import java.lang.annotation.Target;
 
 @Target(ElementType.CONSTRUCTOR)
 @Retention(RetentionPolicy.SOURCE)
-public @interface BuilderConstructorWithAllArgs { }
+public @interface AllArgsConstructor { }

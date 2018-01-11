@@ -1,7 +1,7 @@
 package buidergenerator;
 
 import buidergenerator.annotation.Builder;
-import buidergenerator.annotation.BuilderConstructorWithAllArgs;
+import buidergenerator.annotation.AllArgsConstructor;
 import buidergenerator.internal.BuilderClassInfo;
 import com.google.auto.common.SuperficialValidation;
 import com.google.auto.service.AutoService;
@@ -89,7 +89,7 @@ public class BuilderGeneratorProcessor extends AbstractProcessor {
         List<Element> noArgsConstructors = filterNoArgsConstructors(constructors);
         List<Element> allArgsConstructors = filterAllArgsConstructors(constructors);
         boolean hasAllArgsConstructorWithAnnotation = allArgsConstructors.stream()
-                .filter(constructor -> constructor.getAnnotation(BuilderConstructorWithAllArgs.class) != null)
+                .filter(constructor -> constructor.getAnnotation(AllArgsConstructor.class) != null)
                 .collect(Collectors.toList())
                 .size() > 0;
 
@@ -100,7 +100,7 @@ public class BuilderGeneratorProcessor extends AbstractProcessor {
                     classElement,
                     "Class %s has constructors with arguments but none are with the @%s annotation.",
                     classElement.getSimpleName().toString(),
-                    BuilderConstructorWithAllArgs.class.getSimpleName()
+                    AllArgsConstructor.class.getSimpleName()
             );
             return null;
         }

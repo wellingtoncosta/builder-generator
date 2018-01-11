@@ -14,7 +14,7 @@ public class Contact {
     public final String email;
     public final String phone;
 
-    @BuilderConstructorWithAllArgs
+    @AllArgsConstructor
     public Contact(String name, String email, String phone) {
         this.name = name;
         this.email = email;
