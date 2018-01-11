@@ -1,4 +1,5 @@
-# builder-generator
+# builder-generator [![](https://jitpack.io/v/WellingtonCosta/builder-generator.svg)](https://jitpack.io/#WellingtonCosta/builder-generator)
+
 
 This project is a simple example of code generation at compile-time using Java Annotation Processing.
 
@@ -60,7 +61,7 @@ public class User {
 }
 ```
 
-*Note: The ```@BuilderConstructorWithAllArgs``` annotation sinalize the compiler that the class have a constructor with all arguments.*
+*Note: The ```@AllArgsConstructor``` annotation sinalize the compiler that the class have a constructor with all arguments.*
 
 __Step 2 - Compile the project__
 
