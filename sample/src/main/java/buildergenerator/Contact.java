@@ -1,7 +1,7 @@
-package buidergenerator;
+package buildergenerator;
 
-import buidergenerator.annotation.Builder;
-import buidergenerator.annotation.AllArgsConstructor;
+import buildergenerator.annotation.Builder;
+import buildergenerator.annotation.AllArgsConstructor;
 
 @Builder
 public class Contact {

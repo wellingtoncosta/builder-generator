@@ -1,7 +1,7 @@
-package buidergenerator;
+package buildergenerator;
 
-import buidergenerator.internal.AbstractBuilder;
-import buidergenerator.internal.BuilderClassInfo;
+import buildergenerator.internal.AbstractBuilder;
+import buildergenerator.internal.BuilderClassInfo;
 import com.squareup.javapoet.*;
 
 import java.util.List;

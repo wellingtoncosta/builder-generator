@@ -1,4 +1,4 @@
-package buidergenerator.internal;
+package buildergenerator.internal;
 
 import javax.lang.model.element.Element;
 import javax.lang.model.element.TypeElement;

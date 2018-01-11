@@ -1,4 +1,4 @@
-package buidergenerator.internal;
+package buildergenerator.internal;
 
 public abstract class AbstractBuilder<T> {
 

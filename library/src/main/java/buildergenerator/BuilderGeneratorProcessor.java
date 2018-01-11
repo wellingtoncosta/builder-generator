@@ -1,8 +1,8 @@
-package buidergenerator;
+package buildergenerator;
 
-import buidergenerator.annotation.Builder;
-import buidergenerator.annotation.AllArgsConstructor;
-import buidergenerator.internal.BuilderClassInfo;
+import buildergenerator.annotation.Builder;
+import buildergenerator.annotation.AllArgsConstructor;
+import buildergenerator.internal.BuilderClassInfo;
 import com.google.auto.common.SuperficialValidation;
 import com.google.auto.service.AutoService;
 import com.squareup.javapoet.JavaFile;
@@ -26,7 +26,7 @@ import java.util.stream.Collectors;
 
 @AutoService(Processor.class)
 @SupportedSourceVersion(SourceVersion.RELEASE_8)
-@SupportedAnnotationTypes("buidergenerator.annotation.Builder")
+@SupportedAnnotationTypes("buildergenerator.annotation.Builder")
 public class BuilderGeneratorProcessor extends AbstractProcessor {
 
     private Messager messager;

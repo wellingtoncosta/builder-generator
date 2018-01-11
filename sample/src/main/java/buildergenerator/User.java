@@ -1,6 +1,6 @@
-package buidergenerator;
+package buildergenerator;
 
-import buidergenerator.annotation.Builder;
+import buildergenerator.annotation.Builder;
 
 @Builder
 public class User {

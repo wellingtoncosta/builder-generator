@@ -1,4 +1,4 @@
-package buidergenerator;
+package buildergenerator;
 
 public class App {
 

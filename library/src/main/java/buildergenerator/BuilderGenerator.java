@@ -1,6 +1,6 @@
-package buidergenerator;
+package buildergenerator;
 
-import buidergenerator.internal.AbstractBuilder;
+import buildergenerator.internal.AbstractBuilder;
 
 import java.util.HashMap;
 import java.util.Map;
