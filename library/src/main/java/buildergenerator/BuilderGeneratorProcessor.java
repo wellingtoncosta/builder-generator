@@ -1,7 +1,7 @@
 package buildergenerator;
 
-import buildergenerator.annotation.Builder;
 import buildergenerator.annotation.AllArgsConstructor;
+import buildergenerator.annotation.Builder;
 import buildergenerator.internal.BuilderClassInfo;
 import com.google.auto.common.SuperficialValidation;
 import com.google.auto.service.AutoService;
